@@ -1,0 +1,9 @@
+{
+  "name": "My New Project",
+  "slug": "{{ cookiecutter.name|lower|replace(' ', '_') }}",
+  "driver": "Firefox",
+  "url": "https://example.com",
+  "sensitive_url": ".*",
+  "github_username": "octocat",
+  "github_repository": "{{ cookiecutter.name|lower|replace(' ', '-') }}"
+}
